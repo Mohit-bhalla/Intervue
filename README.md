@@ -18,7 +18,14 @@
 🧑‍💻 Git & GitHub Workflow (branches, PRs, merges)
 🚀 Deployment on Sevalla (free-tier friendly)
 🧪 .env Setup
-Backend (/backend)
+
+---
+
+## 🧪 .env Setup
+
+### Backend (`/backend`)
+
+```bash
 PORT=3000
 NODE_ENV=development
 
@@ -34,18 +41,36 @@ CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
 CLIENT_URL=http://localhost:5173
-Frontend (/frontend)
+```
+
+### Frontend (`/frontend`)
+
+```bash
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
 VITE_API_URL=http://localhost:3000/api
 
 VITE_STREAM_API_KEY=your_stream_api_key
-🔧 Run the Backend
+```
+
+---
+
+## 🔧 Run the Backend
+
+```bash
+
 cd backend
 npm install
 npm run dev
-🔧 Run the Frontend
+```
+
+---
+
+## 🔧 Run the Frontend
+
+```
 bash
 cd frontend
 npm install
 npm run dev
+```
