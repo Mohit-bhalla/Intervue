@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
+  "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js"
   },
@@ -17,8 +17,8 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    
     "inngest": "^3.44.3",
+    "intervue": "file:..",
     "mongoose": "^8.19.1",
     "stream-chat": "^9.24.0"
   },
