@@ -18,7 +18,7 @@ function ActiveSessions({ sessions, isLoading, isUserInSession }) {
         <div className="flex items-center justify-between mb-6">
           {/* TITLE AND ICON */}
           <div className="flex items-center gap-3">
-            <div className="p-2 bg-gradient-to-br from-primary to-secondary rounded-xl">
+            <div className="p-2 bg-linear-to-br from-primary to-secondary rounded-xl">
               <ZapIcon className="size-5" />
             </div>
             <h2 className="text-2xl font-black">Live Sessions</h2>
