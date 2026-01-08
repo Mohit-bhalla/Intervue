@@ -1,25 +1,87 @@
-✨ Highlights:
+<h1 align="center">✨<img src="./frontend/public/interview_icon.png" alt="Intervue Logo" width="30"> Intervue ✨</h1>
 
-🧑‍💻 VSCode-Powered Code Editor
-🔐 Authentication via Clerk
-🎥 1-on-1 Video Interview Rooms
-🧭 Dashboard with Live Stats
-🔊 Mic & Camera Toggle, Screen Sharing & Recording
-💬 Real-time Chat Messaging
-⚙️ Secure Code Execution in Isolated Environment
-🎯 Auto Feedback — Success / Fail based on test cases
-🎉 Confetti on Success + Notifications on Fail
-🧩 Practice Problems Page (solo coding mode)
-🔒 Room Locking — allows only 2 participants
-🧠 Background Jobs with Inngest (async tasks)
-🧰 REST API with Node.js & Express
-⚡ Data Fetching & Caching via TanStack Query
-🤖 CodeRabbit for PR Analysis & Code Optimization
-🧑‍💻 Git & GitHub Workflow (branches, PRs, merges)
-🚀 Deployment on Sevalla (free-tier friendly)
-🧪 .env Setup
+<p align="center">
+  <strong>The Future of Technical Hiring</strong><br>
+  A high-performance, 1-on-1 interview platform with integrated video, real-time chat, and multi-language code execution.
+</p>
+
+
+
+
+
+## 📽️ Visual Walkthrough
+
+### 1. The Gateway (Home Page)
+The journey begins with a secure, professional landing page. Powered by **Clerk**, users can authenticate seamlessly to access their personalized workspace.
+
+
+<p align="center">
+  <img src="./frontend/public/home_page.png" width="850" alt="Home Page">
+</p>
+
+### 2. Live Insights (Dashboard)
+Once logged in, the **Dashboard** serves as the command center.
+* **Live Stats:** Track interview performance and total sessions.
+* **Session Management:** Create new 1-on-1 rooms or view history.
+* **State Management:** Powered by **TanStack Query** for lightning-fast data fetching.
+
+
+<p align="center">
+  <img src="./frontend/public/dashboard.png" width="850" alt="Dashboard">
+</p>
+
+### 3. The Interview Suite (1-on-1 Session)
+This is where the magic happens. A fully immersive, synchronized environment for both the interviewer and candidate.
+* **Video & Audio:** Crystal clear 1-on-1 calling with Mic/Camera toggles and Screen Sharing via **Stream API**.
+* **Code Editor:** A VSCode-powered IDE using **Monaco Editor**.
+* **Dynamic Layout:** Split-view resizing using **React-Panel-Resize**.
+* **Real-time Chat:** Instant messaging to share hints or feedback.
+
+
+<p align="center">
+  <img src="./frontend/public/session_room.png" width="850" alt="Interview Session">
+</p>
+
+### 4. Problem Library & Code Execution
+A dedicated space to practice or browse the problem bank.
+* **Multi-Language Support:** Write and run code in **Java, Python, and JavaScript**.
+* **Isolated Runner:** Secure execution environment that checks against hidden test cases.
+* **Gamified Feedback:** 🎉 Confetti on success, detailed error notifications on failure.
+
+
+<p align="center">
+  <img src="./frontend/public/problems_page.png" width="450" alt="Problem">
+  <img src="./frontend/public/problem_description_page.png" width="450" alt="Problem Execution">
+</p>
 
 ---
+
+## 🚀 Key Features
+
+- 🧑‍💻 **VSCode-Powered Editor:** Pro-level coding experience.
+- 🎥 **1-on-1 Video Rooms:** High-quality calling + screen sharing.
+- ⚙️ **Isolated Execution:** Secure code running with instant feedback.
+- 🔒 **Room Locking:** Automatic privacy—limit sessions to exactly 2 users.
+- 💬 **Integrated Chat:** Real-time messaging during interviews.
+- 🧠 **Async Processing:** Background tasks managed by **Inngest**.
+- 📱 **Fully Responsive:** Beautifully crafted with **Tailwind CSS** and **DaisyUI**.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:**  React, ReactRouter, Tailwind CSS, DaisyUI, TanStack Query
+- **Backend:** Node.js, Express, Inngest
+- **Database:** MongoDB
+- **Auth:** Clerk
+- **Streaming:** Stream Video & Chat SDK
+- **Deployment:** Sevalla (Free-tier friendly)
+
+---
+
+<p align="center">
+  Built with ❤️ for a better interviewing experience.
+</p>
 
 ## 🧪 .env Setup
 
